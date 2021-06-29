@@ -1,0 +1,7 @@
+torch
+sentence_transformers
+pytorch_transformers
+nltk
+tqdm
+pandas
+pickle

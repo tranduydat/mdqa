@@ -1,0 +1,1045 @@
+C	Computer technology is changing at a __________ pace.
+A. Slow
+B. Slow to medium
+C. Rapid
+D. Non-existent
+D	Computer _________ refers to those attributes that have a direct impact on the logical execution of a program.
+A. Organization
+B. Specifics
+C. Design
+D. Architecture
+A	Architectural attributes include __________ .
+A. I/O mechanisms
+B. Control signals
+C. Interfaces
+D. Memory technology used
+B	_________ attributes include hardware details transparent to the programmer.
+A. Interface
+B. Organizational
+C. Memory
+D. Architectural
+A	It is a(n) _________ design issue whether a computer will have a multiply instruction.
+A. Architectural
+B. Memory
+C. Elementary
+D. Organizational
+D	It is a(n) _________ issue whether the multiply instruction will be implemented by a special multiply unit or by a mechanism that makes repeated use of the add unit of the system.
+A. Architectural
+B. Memory
+C. Mechanical
+D. Organizational
+B	A __________ system is a set of interrelated subsystems.
+A. Secondary
+B. Hierarchical
+C. Complex
+D. Functional
+C	An I/O device is referred to as a __________.
+A. CPU
+B. Control device
+C. Peripheral
+D. Register
+A	When data are moved over longer distances, to or from a remote device, the process is known as __________.
+A. Data communications
+B. Registering
+C. Structuring
+D. Data transport
+C	The _________ stores data.
+A. System bus
+B. I/O
+C. Main memory
+D. Control unit
+B	The __________ moves data between the computer and its external environment.
+A. Data transport
+B. I/O
+C. Register
+D. CPU interconnection
+B	A common example of system interconnection is by means of a __________.
+A. Register
+B. System bus
+C. Data transport
+D. Control device
+A	A _________ is a mechanism that provides for communication among CPU, main memory, and I/O.
+A. System interconnection
+B. CPU interconnection
+C. Peripheral
+D. Processor
+D	_________ provide storage internal to the CPU.
+A. Control units
+B. ALUs
+C. Main memory
+D. Registers
+C	The __________ performs the computer's data processing functions.
+A. Register
+B. CPU interconnection
+C. ALU
+D. System bus
+C	The _________ was the world's first general-purpose electronic digital computer.
+A. UNIVAC
+B. MARK IV
+C. ENIAC
+D. Hollerith's Counting Machine
+D	The Electronic Numerical Integrator and Computer project was a response to U.S. needs during _________.
+A. The Civil War
+B. The French-American War
+C. World War I
+D. World War II
+A	The ENIAC used __________.
+A. Vacuum tubes
+B. Integrated circuits
+C. IAS
+D. Transistors
+A	The ENIAC is an example of a _________ generation computer.
+A. First
+B. Second
+C. Third
+D. Fourth
+B	The __________ interprets the instructions in memory and causes them to be executed.
+A. Main memory
+B. Control unit
+C. I/O
+D. Arithmetic and logic unit
+D	The memory of the IAS consists of 1000 storage locations called __________.
+A. Opcodes
+B. Wafers
+C. VLSIs
+D. Words
+C	The __________ contains the 8-bit opcode instruction being executed.
+A. Memory buffer register
+B. Instruction buffer register
+C. Instruction register
+D. Memory address register
+B	During the _________ the opcode of the next instruction is loaded into the IR and the address portion is loaded into the MAR.
+A. Execute cycle
+B. Fetch cycle
+C. Instruction cycle
+D. Clock cycle
+B	Second generation computers used __________.
+A. Integrated circuits
+B. Transistors
+C. Vacuum tubes
+D. Large-scale integration
+A	The __________ defines the third generation of computers.
+A. Integrated circuit
+B. Vacuum tube
+C. Transistor
+D. VLSI
+A	The use of multiple processors on the same chip is referred to as __________ and provides the potential to increase performance without increasing the clock rate.
+A. Multicore
+B. GPU
+C. Data channels
+D. MPC
+D	With the __________, Intel introduced the use of superscalar techniques that allow multiple instructions to execute in parallel.
+A. Core
+B. 8080
+C. 80486
+D. Pentium
+B	The __________ measures the ability of a computer to complete a single task.
+A. Clock speed
+B. Speed metric
+C. Execute cycle
+D. Cycle time
+D	ARM processors are designed to meet the needs of _________.
+A. Embedded real-time systems
+B. Application platforms
+C. Secure applications
+D. All of the above
+A	One increment, or pulse, of the system clock is referred to as a _________.
+A. Clock tick
+B. Cycle time
+C. Clock rate
+D. Cycle speed
+B	Virtually all contemporary computer designs are based on concepts developed by __________ at the Institute for Advanced Studies, Princeton.
+A. John Maulchy
+B. John von Neumann
+C. Herman Hollerith
+D. John Eckert
+D	The von Neumann architecture is based on which concept?
+A. Data and instructions are stored in a single read-write memory
+B. The contents of this memory are addressable by location
+C. Execution occurs in a sequential fashion
+D. All of the above
+A	A sequence of codes or instructions is called __________.
+A. Software
+B. Memory
+C. An interconnect
+D. A register
+C	The processing required for a single instruction is called a(n) __________ cycle.
+A. Execute
+B. Fetch
+C. Instruction
+D. Packet
+B	A(n) _________ is generated by a failure such as power failure or memory parity error.
+A. I/O interrupt
+B. Hardware failure interrupt
+C. Timer interrupt
+D. Program interrupt
+C	A(n) _________ is generated by some condition that occurs as a result of an instruction execution.
+A. Timer interrupt
+B. I/O interrupt
+C. Program interrupt
+D. Hardware failure interrupt
+D	The interconnection structure must support which transfer?
+A. Memory to processor
+B. Processor to memory
+C. I/O to or from memory
+D. All of the above
+A	A bus that connects major computer components (processor, memory, I/O) is called a __________.
+A. System bus
+B. Address bus
+C. Data bus
+D. Control bus
+D	The __________ are used to designate the source or destination of the data on the data bus.
+A. System lines
+B. Data lines
+C. Control lines
+D. Address lines
+C	The data lines provide a path for moving data among system modules and are collectively called the _________.
+A. Control bus
+B. Address bus
+C. Data bus
+D. System bus
+B	A __________ is the high-level set of rules for exchanging packets of data between devices.
+A. Bus
+B. Protocol
+C. Packet
+D. QPI
+A	Each data path consists of a pair of wires (referred to as a __________) that transmits data one bit at a time.
+A. Lane
+B. Path
+C. Line
+D. Bus
+A	The _________ receives read and write requests from the software above the TL and creates request packets for transmission to a destination via the link layer.
+A. Transaction layer
+B. Root layer
+C. Configuration layer
+D. Transport layer
+D	The TL supports which of the following address spaces?
+A. Memory
+B. I/O
+C. Message
+D. All of the above
+C	The QPI _________ layer is used to determine the course that a packet will traverse across the available system interconnects.
+A. Link
+B. Protocol
+C. Routing
+D. Physical
+C	Internal memory capacity is typically expressed in terms of _________.
+A. Hertz
+B. Nanos
+C. Bytes
+D. LOR
+A	__________ refers to whether memory is internal or external to the computer.
+A. Location
+B. Access
+C. Hierarchy
+D. Tag
+B	For internal memory, the __________ is equal to the number of electrical lines into and out of the memory module.
+A. Access time
+B. Unit of transfer
+C. Capacity
+D. Memory ratio
+A	"Memory is organized into records and access must be made in a specific linear sequence" is a description of __________.
+A. Sequential access
+B. Direct access
+C. Random access
+D. Associative
+C	individual blocks or records have a unique address based on physical location with __________.
+A. Associative
+B. Physical access
+C. Direct access
+D. Sequential access
+D	For random-access memory, __________ is the time from the instant that an address is presented to the memory to the instant that data have been stored or made available for use.
+A. Memory cycle time
+B. Direct access
+C. Transfer rate
+D. Access time
+B	The ________ consists of the access time plus any additional time required before a second access can commence.
+A. Latency
+B. Memory cycle time
+C. Direct access
+D. Transfer rate
+A	A portion of main memory used as a buffer to hold data temporarily that is to be read out to disk is referred to as a _________.
+A. Disk cache
+B. Latency
+C. Virtual address
+D. Miss
+C	A line includes a _________ that identifies which particular block is currently being stored.
+A. Cache
+B. Hit
+C. Tag
+D. Locality
+A	__________ is the simplest mapping technique and maps each block of main memory into only one possible cache line.
+A. Direct mapping
+B. Associative mapping
+C. Set associative mapping
+D. None of the above
+C	When using the __________ technique all write operations made to main memory are made to the cache as well.
+A. Write back
+B. LRU
+C. Write through
+D. Unified cache
+B	The key advantage of the __________ design is that it eliminates contention for the cache between the instruction fetch/decode unit and the execution unit.
+A. Logical cache
+B. Split cache
+C. Unified cache
+D. Physical cache
+C	The Pentium 4 _________ component executes micro-operations, fetching the required data from the L1 data cache and temporarily storing results in registers.
+A. Fetch/decode unit
+B. Out-of-order execution logic
+C. Execution unit
+D. Memory subsystem
+A	In reference to access time to a two-level memory, a _________ occurs if an accessed word is not found in the faster memory.
+A. Miss
+B. Hit
+C. Line
+D. Tag
+B	A logical cache stores data using __________.
+A. Physical addresses 
+B. Virtual addresses
+C. Random addresses
+D. None of the above
+D	Which properties do all semiconductor memory cells share?
+A. They exhibit two stable states which can be used to represent binary 1 and 0
+B. They are capable of being written into to set the state
+C. They are capable of being read to sense the state
+D. All of the above
+A	One distinguishing characteristic of memory that is designated as _________ is that it is possible to both to read data from the memory and to write new data into the memory easily and rapidly.
+A. RAM
+B. ROM
+C. EPROM
+D. EEPROM
+D	Which of the following memory types are nonvolatile?
+A. Erasable PROM
+B. Programmable ROM
+C. Flash memory
+D. All of the above
+B	In a _________, binary values are stored using traditional flip-flop logic-gate configurations.
+A. ROM
+B. SRAM
+C. DRAM
+D. RAM
+C	A __________ contains a permanent pattern of data that cannot be changed, is nonvolatile, and cannot have new data written into it.
+A. RAM
+B. SRAM
+C. ROM
+D. Flash memory
+A	With _________ the microchip is organized so that a section of memory cells are erased in a single action.
+A. Flash memory
+B. SDRAM
+C. DRAM
+D. EEPROM
+B	__________ can be caused by harsh environmental abuse, manufacturing defects, and wear.
+A. SEC errors 
+B. Hard errors
+C. Syndrome errors
+D. Soft errors
+A	_________ can be caused by power supply problems or alpha particles.
+A. Soft errors
+B. AGT errors
+C. Hard errors 
+D. SEC errors
+B	The _________ exchanges data with the processor synchronized to an external clock signal and running at the full speed of the processor/memory bus without imposing wait states.
+A. DDR-DRAM
+B. SDRAM
+C. CDRAM
+D. None of the above
+C	________ can send data to the processor twice per clock cycle.
+A. CDRAM
+B. SDRAM
+C. DDR-DRAM
+D. RDRAM
+A	__________ increases the data transfer rate by increasing the operational frequency of the RAM chip and by increasing the prefetch buffer from 2 bits to 4 bits per chip.
+A. DDR2
+B. RDRAM
+C. CDRAM
+D. DDR3
+C	________ increases the prefetch buffer size to 8 bits.
+A. CDRAM
+B. RDRAM
+C. DDR3
+D. All of the above
+A	Theoretically, a DDR module can transfer data at a clock rate in the range of __________ MHz.
+A. 200 to 600
+B. 400 to 1066
+C. 600 to 1400
+D. 800 to 1600
+B	A DDR3 module transfers data at a clock rate of __________ MHz.
+A. 600 to 1200
+B. 800 to 1600
+C. 1000 to 2000
+D. 1500 to 3000
+D	The ________ enables the RAM chip to preposition bits to be placed on the data bus as rapidly as possible.
+A. Flash memory
+B. Hamming code
+C. RamBus
+D. Buffer
+C	Greater ability to withstand shock and damage, improvement in the uniformity of the magnet film surface to increase disk reliability, and a significant reduction in overall surface defects to help reduce read-write errors, are all benefits of ___________.
+a. magnetic read and write mechanisms
+b. platters
+c. the glass substrate
+d. a solid state drive
+B	Adjacent tracks are separated by _________.
+a. sectors
+b. gaps
+c. pits
+d. heads
+C	Data are transferred to and from the disk in __________.
+a. tracks
+b. gaps
+c. sectors
+d. pits
+D	In most contemporary systems fixed-length sectors are used, with _________ bytes being the nearly universal sector size.
+a. 64
+b. 128
+c. 256
+d. 512
+A	Scanning information at the same rate by rotating the disk at a fixed speed is known as the _________.
+a. constant angular velocity
+b. magnetoresistive
+c. rotational delay
+d. constant linear velocity
+B	The disadvantage of _________ is that the amount of data that can be stored on the long outer tracks is only the same as what can be stored on the short inner tracks.
+a. SSD
+b. CAV
+c. ROM
+d. CLV
+A	A __________ disk is permanently mounted in the disk drive, such as the hard disk in a personal computer.
+a. nonremovable
+b. movable-head
+c. double sided
+d. removable
+C	When the magnetizable coating is applied to both sides of the platter the disk is then referred to as _________.
+a. multiple sided
+b. substrate
+c. double sided
+d. all of the above
+D	The set of all the tracks in the same relative position on the platter is referred to as a _________.
+a. floppy disk
+b. single-sided disk
+c. sector
+d. cylinder
+A	The sum of the seek time and the rotational delay equals the _________, which is the time it takes to get into position to read or write.
+a. access time
+b. gap time
+c. transfer time
+d. constant angular velocity
+A	__________ is the standardized scheme for multiple-disk database design.
+a. RAID
+b. CAV
+c. CLV
+d. SSD
+B	RAID level ________ has the highest disk overhead of all RAID types.
+a. 0
+b. 1
+c. 3
+d. 5
+D	A _________ is a high-definition video disk that can store 25 Gbytes on a single layer on a single side.
+a. DVD
+b. DVD-R
+c. DVD-RW
+d. Blu-ray DVD
+C	________ is when the disk rotates more slowly for accesses near the outer edge than for those near the center.
+a. Constant angular velocity (CAV)
+b. Magnetoresistive
+c. Constant linear velocity (CLV)
+d. Seek time
+A	The areas between pits are called _________.
+a. lands
+b. sectors
+c. cylinders
+d. strips
+B	The _________ contains logic for performing a communication function between the peripheral and the bus.
+A. I/O channel
+B. I/O module
+C. I/O processor
+D. I/O command
+A	The most common means of computer/user interaction is a __________.
+A. keyboard/monitor
+B. mouse/printer
+C. modem/printer
+D. monitor/printer
+C	The I/O function includes a _________ requirement to coordinate the flow of traffic between internal resources and external devices.
+A. cycle
+B. status reporting
+C. control and timing
+D. data
+A	An I/O module that takes on most of the detailed processing burden, presenting a high-level interface to the processor, is usually referred to as an _________.
+A. I/O channel
+B. I/O command
+C. I/O controller
+D. device controller
+B	An I/O module that is quite primitive and requires detailed control is usually referred to as an _________.
+A. I/O command
+B. I/O controller
+C. I/O channel
+D. I/O processor
+D	The _________ command causes the I/O module to take an item of data from the data bus and subsequently transmit that data item to the peripheral.
+A. control
+B. test
+C. read
+D. write
+A	The ________ command is used to activate a peripheral and tell it what to do.
+A. control
+B. test
+C. read
+D. write
+C	________ is when the DMA module must force the processor to suspend operation temporarily.
+A. Interrupt
+B. Thunderbolt
+C. Cycle stealing
+D. Lock down
+D	The 8237 DMA is known as a _________ DMA controller.
+A. command
+B. cycle stealing
+C. interrupt
+D. fly-by
+A	________ is a digital display interface standard now widely adopted for computer monitors, laptop displays, and other graphics and video interfaces.
+A. DisplayPort
+B. PCI Express
+C. Thunderbolt
+D. InfiniBand
+C	The ________ layer is the key to the operation of Thunderbolt and what makes it attractive as a high-speed peripheral I/O technology.
+A. cable
+B. application
+C. common transport
+D. physical
+D	The Thunderbolt protocol _________ layer is responsible for link maintenance including hot-plug detection and data encoding to provide highly efficient data transfer.
+A. cable
+B. application
+C. common transport
+D. physical
+B	The ________ contains I/O protocols that are mapped on to the transport layer.
+A. cable
+B. application
+C. common transport
+D. physical
+A	A ________ is used to connect storage systems, routers, and other peripheral devices to an InfiniBand switch.
+A. target channel adapter
+B. InfiniBand switch
+C. host channel adapter
+D. subnet
+D	A ________ connects InfiniBand subnets, or connects an InfiniBand switch to a network such as a local area network, wide area network, or storage area network.
+A. memory controller
+B. TCA
+C. HCA
+D. router
+B	The __________ is a program that controls the execution of application programs and acts as an interface between applications and the computer hardware.
+A. job control language
+B. operating system
+C. batch system
+D. nucleus
+A	Facilities and services provided by the OS that assist the programmer in creating programs are in the form of _________ programs that are not actually part of the OS but are accessible through the OS.
+A. utility
+B. multitasking
+C. JCL
+D. logical address
+D	The _________ defines the repertoire of machine language instructions that a computer can follow.
+A. ABI
+B. API
+C. HLL
+D. ISA
+C	The _________ defines the system call interface to the operating system and the hardware resources and services available in a system through the user instruction set architecture.
+A. HLL
+B. API
+C. ABI
+D. ISA
+D	The ________ gives a program access to the hardware resources and services available in a system through the user instruction set architecture supplemented with high-level language library calls.
+A. JCL
+B. ISA
+C. ABI
+D. API
+B	A _________ system works only one program at a time.
+A. batch
+B. uniprogramming
+C. kernel
+D. privileged instruction
+A	A _________ is a special type of programming language used to provide instructions to the monitor.
+A. job control language
+B. multiprogram
+C. kernel
+D. utility
+A	The _________ scheduler determines which programs are admitted to the system for processing.
+A. long-term
+B. medium-term
+C. short-term
+D. I/O
+C	The ________ scheduler is also known as the dispatcher.
+A. long-term
+B. medium-term
+C. short-term
+D. I/O
+D	A _________ is an actual location in main memory.
+A. logical address
+B. partition address
+C. base address
+D. physical address
+B	________ is when the processor spends most of its time swapping pages rather than executing instructions.
+A. Swapping
+B. Thrashing
+C. Paging
+D. Multitasking
+A	Virtual memory schemes make use of a special cache called a ________ for page table entries.
+A. TLB
+B. HLL
+C. VMC
+D. SPB
+A	With _________ the virtual address is the same as the physical address.
+A. unsegmented unpaged memory
+B. unsegmented paged memory
+C. segmented unpaged memory
+D. segmented paged memory
+C	A _________ is a collection of memory regions.
+A. APX
+B. nucleus
+C. domain
+D. page table
+B	The OS maintains a __________ for each process that shows the frame location for each page of the process.
+A. kernel
+B. page table
+C. TLB
+D. logical address
+C	The operand ________ yields true if and only if both of its operands are true.
+A. XOR
+B. OR
+C. AND
+D. NOT
+D	The operation _________ yields true if either or both of its operands are true.
+A. NOT
+B. AND
+C. NAND
+D. OR
+B	The unary operation _________ inverts the value of its operand.
+A. OR
+B. NOT
+C. NAND
+D. XOR
+A	A _______ is an electronic circuit that produces an output signal that is a simple Boolean operation on its input signals.
+A. gate
+B. decoder
+C. counter
+D. flip-flop
+D	Which of the following is a functionally complete set?
+A. AND, NOT
+B. NOR
+C. AND, OR, NOT
+D. all of the above
+B	For more than four variables an alternative approach is a tabular technique referred to as the _________ method.
+A. DeMorgan
+B. Quine-McCluskey
+C. Karnaugh map
+D. Boole-Shannon
+A	________ are used in digital circuits to control signal and data routing.
+A. Multiplexers
+B. Program counters
+C. Flip-flops
+D. Gates
+C	________ is implemented with combinational circuits.
+A. Nano memory
+B. Random access memory
+C. Read only memory
+D. No memory
+D	The ________ exists in one of two states and, in the absence of input, remains in that state.
+A. assert
+B. complex PLD
+C. decoder
+D. flip-flop
+A	The ________ flip-flop has two inputs and all possible combinations of input values are valid.
+A. J-K
+B. D
+C. S-R
+D. clocked S-R
+B	A _________ accepts and/or transfers information serially.
+A. S-R latch
+B. shift register
+C. FPGA
+D. parallel register
+C	Counters can be designated as _________.
+A. asynchronous
+B. synchronous
+C. both asynchronous and synchronous
+D. neither asynchronous or synchronous
+A	CPUs make use of _________ counters, in which all of the flip-flops of the counter change at the same time.
+A. synchronous
+B. asynchronous
+C. clocked S-R
+D. timed ripple
+A	The _________ table provides the value of the next output when the inputs and the present output are known, which is exactly the information needed to design the counter or any sequential circuit.
+A. excitation
+B. Kenough
+C. J-K flip-flop
+D. FPGA
+B	A _________ is a PLD featuring a general structure that allows very high logic capacity and offers more narrow logic resources and a higher ration of flip-flops to logic resources than do CPLDs.
+A. SPLD
+B. FPGA
+C. PAL
+D. PLA
+B	The ________ specifies the operation to be performed.
+A. source operand reference
+B. opcode
+C. next instruction reference
+D. processor register
+B	A(n) _________ expresses operations in a concise algebraic form using variables.
+A. opcode
+B. high-level language
+C. machine language
+D. register
+C	There must be ________ instructions for moving data between memory and the registers.
+A. branch
+B. logic
+C. memory
+D. I/O
+A	________ instructions operate on the bits of a word as bits rather than as numbers, providing capabilities for processing any other type of data the user may wish to employ.
+A. Logic
+B. Arithmetic
+C. Memory
+D. Test
+D	_________ instructions provide computational capabilities for processing number data.
+A. Boolean
+B. Logic
+C. Memory
+D. Arithmetic
+A	_______ instructions are needed to transfer programs and data into memory and the results of computations back out to the user.
+A. I/O
+B. Transfer
+C. Control
+D. Branch
+C	The x86 data type that is a signed binary value contained in a byte, word, or doubleword, using twos complement representation is _________.
+A. general
+B. ordinal
+C. integer
+D. packed BCD
+B	The most fundamental type of machine instruction is the _________ instruction.
+A. conversion
+B. data transfer
+C. arithmetic
+D. logical
+A	The _________ instruction includes an implied address.
+A. skip
+B. rotate
+C. stack
+D. push
+D	Which of the following is a true statement?
+A. a procedure can be called from more than one location
+B. a procedure call can appear in a procedure
+C. each procedure call is matched by a return in the called program
+D. all of the above
+B	The entire set of parameters, including return address, which is stored for a procedure invocation is referred to as a _________.
+A. branch
+B. stack frame
+C. pop
+D. push
+A	Which ARM operation category includes logical instructions (AND, OR, XOR), add and subtract instructions, and test and compare instructions?
+A. data-processing instructions
+B. branch instructions
+C. load and store instructions
+D. extend instructions
+C	In the ARM architecture only _________ instructions access memory locations.
+A. data processing
+B. status register access
+C. load and store
+D. branch
+D	Which data type is defined in MMX?
+A. packed byte
+B. packed word
+C. packed doubleword
+D. all of the above
+B	A branch instruction in which the branch is always taken is _________.
+A. conditional branch
+B. unconditional branch
+C. jump
+D. bi-endian
+B	The advantage of __________ is that no memory reference other than the instruction fetch is required to obtain the operand.
+A. direct addressing
+B. immediate addressing
+C. register addressing
+D. stack addressing
+D	The principal advantage of ___________ addressing is that it is a very simple form of addressing.
+A. displacement
+B. register
+C. stack
+D. direct
+A	__________ has the advantage of large address space, however it has the disadvantage of multiple memory references.
+A. Indirect addressing
+B. Direct addressing
+C. Immediate addressing
+D. Stack addressing
+C	The advantages of _________ addressing are that only a small address field is needed in the instruction and no time-consuming memory references are required.
+A. direct
+B. indirect
+C. register
+D. displacement
+B	__________ has the advantage of flexibility, but the disadvantage of complexity.
+A. Stack addressing
+B. Displacement addressing
+C. Direct addressing
+D. Register addressing
+A	For _________, the address field references a main memory address and the referenced register contains a positive displacement from that address.
+A. indexing
+B. base-register addressing
+C. relative addressing
+D. all of the above
+C	Indexing performed after the indirection is __________.
+A. relative addressing
+B. autoindexing
+C. postindexing
+D. preindexing
+A	For the _________ mode, the operand is included in the instruction.
+A. immediate
+B. base
+C. register
+D. displacement
+D	The only form of addressing for branch instructions is _________ addressing.
+A. register
+B. relative
+C. base
+D. immediate
+D	Which of the following interrelated factors go into determining the use of the addressing bits?
+A. number of operands
+B. number of register sets
+C. address range
+D. all of the above
+B	_________ is a principle by which two variables are independent of each other.
+A. Opcode
+B. Orthogonality
+C. Completeness
+D. Autoindexing
+C	The _________ was designed to provide a powerful and flexible instruction set within the constraints of a 16-bit minicomputer.
+A. PDP-1
+B. PDP-8
+C. PDP-11
+D. PDP-10
+A	The __________ byte consists of three fields: the Scale field, the Index field and the Base field.
+A. SIB
+B. VAX
+C. PDP-11
+D. ModR/M
+C	All instructions in the ARM architecture are __________ bits long and follow a regular format.
+A. 8
+B. 16
+C. 32
+D. 64
+D	__________ is a design principle employed in designing the PDP-10 instruction set.
+A. Orthogonality
+B. Completeness
+C. Direct addressing
+D. All of the above
+C	__________ are a set of storage locations.
+A. Processors
+B. PSWs
+C. Registers
+D. Control units
+A	The ________ controls the movement of data and instructions into and out of the processor.
+A. control unit
+B. ALU
+C. shifter
+D. branch
+B	________ registers may be used only to hold data and cannot be employed in the calculation of an operand address.
+A. General purpose
+B. Data
+C. Address
+D. Condition code
+B	__________ are bits set by the processor hardware as the result of operations.
+A. MIPS
+B. Condition codes
+C. Stacks
+D. PSWs
+D	The _________ contains the address of an instruction to be fetched.
+A. instruction register
+B. memory address register
+C. memory buffer register
+D. program counter
+C	The _________ contains a word of data to be written to memory or the word most recently read.
+A. MAR 
+B. PC
+C. MBR
+D. IR
+A	The ________ determines the opcode and the operand specifiers.
+A. decode instruction
+B. fetch operands
+C. calculate operands 
+D. execute instruction
+D	_________ is a pipeline hazard.
+A. Control
+B. Resource
+C. Data
+D. All of the above
+B	A ________ hazard occurs when there is a conflict in the access of an operand location.
+A. resource
+B. data
+C. structural
+D. control
+A	A _________ is a small, very-high-speed memory maintained by the instruction fetch stage of the pipeline and containing the n most recently fetched instructions in sequence.
+A. loop buffer
+B. delayed branch
+C. multiple stream
+D. branch prediction
+C	The _________ is a small cache memory associated with the instruction fetch stage of the pipeline.
+A. dynamic branch
+B. loop table
+C. branch history table
+D. flag
+B	The _________ stage includes ALU operations, cache access, and register update.
+A. decode
+B. execute
+C. fetch
+D. write back
+C	________ is used for debugging.
+A. Direction flag
+B. Alignment check
+C. Trap flag
+D. Identification flag
+D	The ARM architecture supports _______ execution modes.
+A. 2
+B. 8
+C. 11
+D. 7
+A	The OS usually runs in ________.
+A. supervisor mode
+B. abort mode
+C. undefined mode
+D. fast interrupt mode
+A	The Patterson study examined the dynamic behavior of _________ programs, independent of the underlying architecture.
+A. HLL
+B. RISC
+C. CISC
+D. all of the above
+C	_________ is the fastest available storage device.
+A. Main memory
+B. Cache
+C. Register storage
+D. HLL
+D	The first commercial RISC product was _________.
+A. SPARC
+B. CISC
+C. VAX
+D. the Pyramid
+A	_________ instructions are used to position quantities in registers temporarily for computational operations.
+A. Load-and-store
+B. Window
+C. Complex
+D. Branch
+D	Which stage is required for load and store operations?
+A. I
+B. E
+C. D
+D. all of the above
+B	A ________ instruction can be used to account for data and branch delays.
+A. SUB
+B. NOOP
+C. JUMP
+D. all of the above
+C	The instruction location immediately following the delayed branch is referred to as the ________.
+A. delay load
+B. delay file
+C. delay slot
+D. delay register
+A	A tactic similar to the delayed branch is the _________, which can be used on LOAD instructions.
+A. delayed load
+B. delayed program
+C. delayed slot
+D. delayed register
+C	The MIPS R4000 uses ________ bits for all internal and external data paths and for addresses, registers, and the ALU.
+A. 16
+B. 32
+C. 64
+D. 128
+D	All MIPS R series processor instructions are encoded in a single ________ word format.
+A. 4-bit
+B. 8-bit
+C. 16-bit
+D. 32-bit
+B	A _________ architecture is one that makes use of more, and more fine-grained pipeline stages.
+A. parallel
+B. superpipelined
+C. superscalar
+D. hybrid
+A	The R4000 can have as many as _______ instructions in the pipeline at the same time.
+A. 8
+B. 10
+C. 5
+D. 3
+C	SPARC refers to an architecture defined by ________.
+A. Microsoft
+B. Apple
+C. Sun Microsystems
+D. IBM
+A	The R4000 pipeline stage where the instruction result is written back to the register file is the __________ stage.
+A. write back
+B. tag check
+C. data cache
+D. instruction execute
+D	The superscalar approach can be used on __________ architecture.
+A. RISC
+B. CISC
+C. neither RISC nor CISC
+D. both RISC and CISC
+C	The essence of the ________ approach is the ability to execute instructions independently and concurrently in different pipelines.
+A. scalar
+B. branch
+C. superscalar
+D. flow dependency
+D	Which of the following is a fundamental limitation to parallelism with which the system must cope?
+A. procedural dependency
+B. resource conflicts
+C. antidependency
+D. all of the above
+A	The situation where the second instruction needs data produced by the first instruction to execute is referred to as __________.
+A. true data dependency
+B. output dependency
+C. procedural dependency
+D. antidependency
+B	The instructions following a branch have a _________ on the branch and cannot be executed until the branch is executed.
+A. resource dependency
+B. procedural dependency
+C. output dependency 
+D. true data dependency
+A	________ refers to the process of initiating instruction execution in the processor's functional units.
+A. Instruction issue
+B. In-order issue
+C. Out-of-order issue
+D. Procedural issue
+C	Instead of the first instruction producing a value that the second instruction uses, with ___________ the second instruction destroys a value that the first instruction uses.
+A. in-order issue
+B. resource conflict
+C. antidependency
+D. out-of-order completion
+A	________ indicates whether this micro-op is scheduled for execution, has been dispatched for execution, or has completed execution and is ready for retirement.
+A. State
+B. Memory address
+C. Micro-op
+D. Alias register
+B	__________ exists when instructions in a sequence are independent and thus can be executed in parallel by overlapping.
+A. Flow dependency
+B. Instruction-level parallelism
+C. Machine parallelism
+D. Instruction issue
+A	_________ is determined by the number of instructions that can be fetched and executed at the same time and by the speed and sophistication of the mechanisms that the processor uses to find independent instructions.
+A. Machine parallelism
+B. Instruction-level parallelism
+C. Output dependency
+D. Procedural dependency
+D	________ is a protocol used to issue instructions.
+A. Micro-ops
+B. Scalar
+C. SIMD
+D. Instruction issue policy
+C	________ is used in scalar RISC processors to improve the performance of instructions that require multiple cycles.
+A. In-order completion
+B. In-order issue
+C. Out-of-order completion
+D. Out-of-order issue
+D	Which of the following is a hardware technique that can be used in a superscalar processor to enhance performance?
+A. duplication of resources
+B. out-of-order issue
+C. renaming
+D. all of the above
+B	The ________ introduced a full-blown superscalar design with out-of-order execution.
+A. Pentium
+B. Pentium Pro
+C. 386
+D. 486
+C	Utilizing a branch target buffer (BTB), the _________ uses a dynamic branch prediction strategy based on the history of recent executions of branch instructions.
+A. 486
+B. Pentium
+C. Pentium 4
+D. Pentium Pro
